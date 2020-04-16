@@ -1,0 +1,176 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.top-wrapper h1,p {
+  opacity: 0.7;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.btn-wrapper {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.btn-wrapper p {
+  margin: 15px 0px;
+}
+
+.btn {
+  border-radius: 4px;
+  color: white;
+  opacity: 0.8;
+  padding: 8px 24px;
+}
+
+.btn:hover {
+  opacity: 1.0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+}
+
+.header-left {
+  float: left;
+  padding-top: 20px;
+}
+
+.header-left img {
+  width: 124px;
+}
+
+.header-right {
+  float: right;
+}
+
+.login {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  display: block;
+  line-height: 65px;
+  padding: 0px 25px;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.lesson-wrapper {
+  background-color: #f7f7f7;
+  height: 580px;
+}
+
+.heading {
+  color: #5f5d60;
+  font-weight: normal;
+  padding-top: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading h2,h3 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.lesson-icon {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.lesson-icon p {
+  color: white;
+  position: absolute;
+  top: 44%;
+  width: 100%;
+}
+
+.text-contents {
+  color: #b3aeb5;
+  display: inline-block;
+  font-size: 13px;
+  width: 80%;
+}
+
+.btn-message {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.message {
+  background-color: #5dca88;
+  box-shadow: 0px 7px #1a7940;
+  cursor: pointer;
+  padding: 15px 40px;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  border-top: 1px solid #eee;
+}
+
+.footer-logo {
+  margin: 30px 0px;
+}
+
+.footer-logo img {
+  width: 124px;
+}
+
+.footer-logo p {
+  font-size: 12px;
+}
